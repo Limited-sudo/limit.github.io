@@ -1,0 +1,153 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  color: orangered;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.main {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: max-content;
+  height: max-content;
+  padding: 40px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0%;
+  cursor: default;
+  margin-bottom: 10px;
+}
+
+.h2 {
+  margin: 0%;
+  color: orangered;
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: default;
+  font-weight: 800;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.username,
+.password {
+  color: orangered;
+  border-bottom-color: rgba(0, 0, 0, 0.42);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.009375em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  align-self: flex-end;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 4px 4px 0 0;
+  background: rgb(255, 255, 255);
+  height: max-content;
+  margin-bottom: 10px;
+  transition: all 0.15s;
+  background-color: transparent;
+}
+
+.username:hover,
+.password:hover {
+  border-bottom-color: orangered;
+}
+
+.username:focus,
+.password:focus {
+    border-color: #ffffff;
+    outline: 1px;
+    border-bottom-color: orangered;
+    box-shadow: 0 0 20px rgba(255, 94, 0, 0.6);
+    box-shadow: 0px 0px 5px rgb(255, 94, 0);
+
+}
+
+::placeholder {
+  color: orangered;
+}
+
+
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forgot {
+  font-weight: 800;
+  color: orangered;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.forgot:hover {
+ text-shadow: 0 0 20px rgba(255, 94, 0, 0.6);
+ text-shadow: 0px 0px 5px rgb(255, 94, 0);
+}
+
+.Login {
+  background-color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 40px;
+  width: 80px;
+  color: orangered;
+  border: solid;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: orangered;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: all 0.15s;
+}
+
+.Login:hover {
+  box-shadow: 0px 0px 5px rgb(255, 94, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(255, 94, 0, 0.6);
+  background-color: orangered;
+  border: none;
+}
+
+.end2 p {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.end2 a {
+  color: black;
+  text-decoration: none;
+}

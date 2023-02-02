@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <form method="get">
+            <p class="h1" title="Hello Guys" >Welcome Back</p>
+            <p title="Just Login" class="h2">Please enter your login and password.&#9749;</p>
+            <div class="input">
+                <div>
+                    <input class="username" placeholder="Username" name="name" type="text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                </div>
+                <div>
+                    <input  class="password" placeholder="Password" type="password" required>
+                </div>
+            </div>
+            <div class="end">
+                <div class="a">
+                    <a class="forgot" href="forgot_password.html">Forgot passsword&#63;</a>
+                </div>
+                <div class="button">
+                    <button  class="Login">Login</button>
+                </div>
+
+                <div class="end2">
+                    <p>
+                        Don't have an account&#63; <a href="signup.html">Sign up</a>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
